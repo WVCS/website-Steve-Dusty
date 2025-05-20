@@ -1,9 +1,334 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flare - Ignite Your Business</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="main-header" id="main-header">
+    <div class="container">
+      <div class="logo">
+        <a href="#home" class="nav-link">Flare</a>
+      </div>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
 
+  <main>
+    <!-- Home Screen -->
+    <section id="home" class="screen active">
+      <div class="container">
+        <div class="hero">
+          <h1 class="fade-in">Ignite Your Business with <span>Flare</span></h1>
+          <p class="fade-in delay-1">The all-in-one platform that helps startups scale faster and smarter.</p>
+          <div class="cta-buttons fade-in delay-2">
+            <button class="btn btn-primary">Get Started</button>
+            <button class="btn btn-secondary">Learn More</button>
+          </div>
+          <div class="hero-image fade-in delay-3">
+            <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Team working together on Flare platform">
+          </div>
+        </div>
+        <div class="partners">
+          <h3>Trusted by innovative companies</h3>
+          <div class="partner-logos">
+            <div class="partner">Company A</div>
+            <div class="partner">Company B</div>
+            <div class="partner">Company C</div>
+            <div class="partner">Company D</div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Features Screen -->
+    <section id="features" class="screen">
+      <div class="container">
+        <h2>Powerful Features</h2>
+        <p class="section-intro">Everything you need to grow your business, all in one place.</p>
+        
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="https://images.pexels.com/photos/7673853/pexels-photo-7673853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Analytics feature">
+            </div>
+            <h3>Advanced Analytics</h3>
+            <p>Gain valuable insights with our advanced analytics dashboard.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Collaboration feature">
+            </div>
+            <h3>Seamless Collaboration</h3>
+            <p>Work together with your team in real-time, anywhere.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Automation feature">
+            </div>
+            <h3>Powerful Automation</h3>
+            <p>Automate repetitive tasks and focus on what matters most.</p>
+          </div>
+          
+          <div class="feature-card">
+            <div class="feature-icon">
+              <img src="https://images.pexels.com/photos/3182826/pexels-photo-3182826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Security feature">
+            </div>
+            <h3>Enterprise Security</h3>
+            <p>Bank-level encryption and security for your peace of mind.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Pricing Screen -->
+    <section id="pricing" class="screen">
+      <div class="container">
+        <h2>Simple, Transparent Pricing</h2>
+        <p class="section-intro">Choose the plan that works best for your business.</p>
+        
+        <div class="pricing-plans">
+          <div class="plan">
+            <div class="plan-header">
+              <h3>Starter</h3>
+              <div class="price">
+                <span class="currency">$</span>
+                <span class="amount">29</span>
+                <span class="period">/month</span>
+              </div>
+              <p>Perfect for small startups</p>
+            </div>
+            <ul class="features-list">
+              <li>5 Team Members</li>
+              <li>10 Projects</li>
+              <li>Basic Analytics</li>
+              <li>24/7 Support</li>
+            </ul>
+            <button class="btn btn-outline">Get Started</button>
+          </div>
+          
+          <div class="plan popular">
+            <div class="popular-tag">Most Popular</div>
+            <div class="plan-header">
+              <h3>Growth</h3>
+              <div class="price">
+                <span class="currency">$</span>
+                <span class="amount">79</span>
+                <span class="period">/month</span>
+              </div>
+              <p>For growing businesses</p>
+            </div>
+            <ul class="features-list">
+              <li>15 Team Members</li>
+              <li>Unlimited Projects</li>
+              <li>Advanced Analytics</li>
+              <li>Priority Support</li>
+              <li>Advanced Automation</li>
+            </ul>
+            <button class="btn btn-primary">Get Started</button>
+          </div>
+          
+          <div class="plan">
+            <div class="plan-header">
+              <h3>Enterprise</h3>
+              <div class="price">
+                <span class="amount">Custom</span>
+              </div>
+              <p>For large organizations</p>
+            </div>
+            <ul class="features-list">
+              <li>Unlimited Team Members</li>
+              <li>Unlimited Projects</li>
+              <li>Custom Analytics</li>
+              <li>Dedicated Support</li>
+              <li>Advanced Security</li>
+              <li>Custom Integrations</li>
+            </ul>
+            <button class="btn btn-outline">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Testimonials Screen -->
+    <section id="testimonials" class="screen">
+      <div class="container">
+        <h2>What Our Customers Say</h2>
+        <p class="section-intro">Don't take our word for it. See what our customers have to say.</p>
+        
+        <div class="testimonial-slider">
+          <div class="testimonial-slides">
+            <div class="testimonial active">
+              <div class="testimonial-content">
+                <p>"Flare has completely transformed how we operate. The analytics features alone have helped us increase revenue by 40% in just six months."</p>
+              </div>
+              <div class="testimonial-author">
+                <img src="https://images.pexels.com/photos/3778603/pexels-photo-3778603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Sarah Johnson">
+                <div class="author-info">
+                  <h4>Sarah Johnson</h4>
+                  <p>CEO, TechStart Inc.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="testimonial">
+              <div class="testimonial-content">
+                <p>"The collaboration features have allowed our remote team to work together seamlessly. We've never been more productive."</p>
+              </div>
+              <div class="testimonial-author">
+                <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Mark Davis">
+                <div class="author-info">
+                  <h4>Mark Davis</h4>
+                  <p>CTO, InnovateCorp</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="testimonial">
+              <div class="testimonial-content">
+                <p>"Switching to Flare was the best decision we made last year. The platform is intuitive, powerful, and the support team is incredible."</p>
+              </div>
+              <div class="testimonial-author">
+                <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Emily Chen">
+                <div class="author-info">
+                  <h4>Emily Chen</h4>
+                  <p>Product Manager, GrowFast</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="slider-controls">
+            <button class="prev-btn" aria-label="Previous testimonial">&#8592;</button>
+            <div class="slider-dots">
+              <button class="dot active" aria-label="Go to testimonial 1"></button>
+              <button class="dot" aria-label="Go to testimonial 2"></button>
+              <button class="dot" aria-label="Go to testimonial 3"></button>
+            </div>
+            <button class="next-btn" aria-label="Next testimonial">&#8594;</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- Contact Screen -->
+    <section id="contact" class="screen">
+      <div class="container">
+        <div class="contact-content">
+          <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>Ready to transform your business? We're here to help.</p>
+            <div class="contact-methods">
+              <div class="contact-method">
+                <h4>Email</h4>
+                <p>hello@flareapp.com</p>
+              </div>
+              <div class="contact-method">
+                <h4>Phone</h4>
+                <p>+1 (555) 123-4567</p>
+              </div>
+              <div class="contact-method">
+                <h4>Address</h4>
+                <p>123 Innovation Street<br>San Francisco, CA 94103</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form-container">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error-message"></span>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message"></span>
+              </div>
+              
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company">
+                <span class="error-message"></span>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <span class="error-message"></span>
+              </div>
+              
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Flare</h3>
+          <p>Ignite your business with powerful tools and insights.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a href="#" aria-label="Twitter">Twitter</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="#" aria-label="Instagram">Instagram</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        <p>&copy; 2025 Flare. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 
+</body>
 </html>
